@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: 'Hope Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('../../..//Users/macmini/Library/Fonts')
+  }
+
+  @font-face {
+    font-family: 'Ranille';
+    font-style: normal;
+    font-weight: 400;
+    src: local('../../..//Users/macmini/Library/Fonts')
+  }
+
+* {
+    box-sizing: border-box;
+    --lilas: #C8B1F9;
+    --tiffany-blue: #9DD9D2;
+    --white: #FFFFFF;
+    --greenish-grey: #937F4D;;
+    --light-grey: #F1EEE4;
+    --medium-grey: #E3DDCA;
+    --dark-grey: #0D0C07;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Hope Sans', sans-serif;
+    background-color: var(--light-grey);
+    color: var(--dark-grey);
+    padding: 12px 12px 12px 12px;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
